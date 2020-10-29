@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+
+    <h1>Formulir Pendaftaran</h1>
+    <p style="color: coral;">BACA BASMALAH SEBELUM MENGISI</p>
+    <br>
+    <h1 align="right">
+<form>
+    <tr>
+        <td>DATE</td><br>
+        <td><input type="date" required></td>
+    </tr><br>
+    </h1>
+    <h2 style="color: blueviolet;">PERSONAL INFORMATION</h2>
+    <hr>
+    <table>
+        <tr>
+            <td>NAME</td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input type="date"required></td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+    <h2 style="color: blueviolet;">CONTACT INFORMATION</h2>
+    <hr>
+    <table>
+        <tr>
+            <td>ADDRESS</td>
+            <td><input type="text" required></td>
+        </tr>
+        <tr>
+            <td>CITY </td>
+            <td><input type="text" required></td>
+            <td>PROVINCE/STATE</td>
+            <td><input type="text" required></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>ZIP CODE</td>
+            <td><input type="text"></td>
+            <td>COUNTRY</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>PHONE </td>
+            <td><input type="text"></td>
+            <td>Email</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>MEMBER TYPE</td>
+            <td><input type="radio" name="MEMBER"> Regular 
+                <input type="radio" name="MEMBER"> Premium
+                <input type="radio" name="MEMBER"> VIP
+            
+            </td>
+        </tr>
+    <h2 style="color: blueviolet;">COURSE INFORMATION</h2>
+    <hr>
+    <table>
+    <tr>
+        <td>COURSE NAME</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>PAYMENT DETAIL</td>
+        <td><input type="radio" name="PAYMENT"> Cash
+            <input type="radio" name="PAYMENT"> Ceque
+            <input type="radio" name="PAYMENT"> Credit Card
+        </td>
+    </tr>
+    <tr>
+        <td>COMMENTS</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><input type="text" value="STUDENT SIGNATURE"></td>
+        <td><input type="text" value="VALIDATE BY"></td>
+    </tr>
+   
+    <tr align="right">
+        <td><input type="button" value="SUBMIT"></td>
+    </tr>
+</form>
+</table>
+</body>
+</html>
